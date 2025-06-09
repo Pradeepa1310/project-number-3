@@ -1,0 +1,191 @@
+<head>
+    <style>
+        body{
+            background-color: rgb(205, 180, 248);
+        }
+        .box {
+            width: 1300px;
+            height: 50px;
+            border: 2px solid rgb(7, 1, 1);
+            position: relative;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .progress1{
+            width: 80%; /* Adjust percentage here */
+            height: 100%;
+            background-color: lightskyblue;
+            position: absolute;
+        }
+        .progress2 {
+            width: 50%; /* Adjust percentage here */
+            height: 100%;
+            background-color: lightskyblue;
+            position: absolute;
+        }
+        .progress3 {
+            width: 65%; /* Adjust percentage here */
+            height: 100%;
+            background-color: lightskyblue;
+            position: absolute;
+        }
+        .progress4 {
+            width: 90%; /* Adjust percentage here */
+            height: 100%;
+            background-color: lightskyblue;
+            position: absolute;
+        }
+        .percentage {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            line-height: 50px;
+            font-weight: bold;
+        }
+        .sidebar{
+            display: inline-block;
+            width: 25%;
+            position: sticky;
+            
+            top: 20px;
+            padding-right: 65px;
+        }
+        .content{
+            display: inline-block;
+            width: 70%;
+            vertical-align: top;
+            padding-left: 20px;
+            border-left: 5px solid rgb(0, 0, 0);
+        }
+        p{
+            font-size: 28px;
+        }
+        h1{
+            font-size: 60px;
+            text-align:center;
+            background-color: rgb(145, 236, 239);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        h2{
+            font-size: 40px;
+            color: black;
+        }
+        h3{
+            font-size:35px;
+        }
+        input{
+            width:800px;
+            height:50px;
+            font-size: 20px;
+        }
+        button{
+            width:300px;
+            height:50px;
+            font-size: 20px;
+            text-align: center;
+            background-color: darkseagreen;
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="pradeepa.jpg" width="500px" height="1000px">
+    </div>
+    <div class="content">
+       
+        <center>
+            <h1> MY PORTFOLIO</h1>
+        </center>
+        <br>
+        
+        <center>
+            <h2>BCA  II year Student</h2>
+        </center>
+        <br>
+        <br>
+        <br>
+        
+        <h2>About Portfolio:</h2>
+        <p>In this Portfolio, there are filled with my education qualification, archievements, skills, and coding knowledges are noted.</p>
+        <br>
+       
+        <h2>About Myself:</h2>
+        <p>I'm Pradeepa.D , curently i'm pursuving my BCA degree in FACEPrep Campus at Kamaraj College. I completed my Schooling's in Holy Cross Anglo Indian Hr.Sec School. I got 80% in 10th standard and 81.5%in 12th standanrd. In School, I took computer science group. i  got intrest in Computer Application group in College for IT field job.</p> 
+        <p> I joined in Smart India Hackathon (SIH), there i gained how to involve in team-work, group discussion etc.</p>
+        <p>I completed EF set 3 course, Linkedin 36 course, and also Microsoft 5 courses. There i learn lot of things like how to use copilet etc.  
+        <br>
+        <br>
+
+        <h2>My Skills:</h2>
+        <h3>Python</h3>
+        <div class="box">
+            <div class="progress1"></div>
+            <div class="percentage">85%</div>
+        </div>
+        <h3>C language</h3>
+        <div class="box">
+            <div class="progress2"></div>
+            <div class="percentage">55%</div>
+        </div>
+        <h3>C++ Language</h3>
+        <div class="box">
+            <div class="progress3"></div>
+            <div class="percentage">70%</div>
+        </div>
+        <h3>HTML</h3>
+        <div class="box">
+            <div class="progress4"></div>
+            <div class="percentage">90%</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2>Conatact Me</h2>
+        <h3>☎Phone no.:</h3>
+        <p>+91 9791424329</p>
+        <h3>💌Email:</h3>
+        <p>pradeepa0317@gmail.com</p>
+        <h3>📍Adress:</h3>
+        <p>165/43A Anna colony North beach road </p>
+        <p>Thoothukudi-1,</p>
+        <p>628001.</p>
+        <h3>Linkedin:</h3>
+        <p><a href="https://www.linkedin.com/">Click to Open Linkedin</a></p>
+        <br>
+        <br>
+        <br>
+        <h3>Lets get in touch, send me a message.</h2>
+        <form>
+            <table>
+                <tr>
+                    <td><input type="text" class="input" placeholder="Your Name"></iput></td>
+                </tr>
+            </table>
+                <br>
+                <br>
+            <table>
+                <tr>
+                    <td><input type="email" class="input" placeholder="Email Adress"></input></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <td><input type="text" class="input" placeholder="Subject"></input></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <td><input type="text" class="input" placeholder="Message"></iput></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <button onclick="button" class="button">💬DM</button>
+        </form>
+    </div>
+</body>
